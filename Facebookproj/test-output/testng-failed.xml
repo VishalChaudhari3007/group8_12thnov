@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Testng.Verifyforgotpasspage">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyForgotPasswordPagetext"/>
+          <include name="beforSuite"/>
+          <include name="verifysearchbuttonfunction"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="verifycancelbuttonfunction"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="goToForgotPasswordPage"/>
+          <include name="verifyCreateAccpage"/>
+        </methods>
+      </class> <!-- Testng.Verifyforgotpasspage -->
+      <class name="Testng.Verifysignuppop">
+        <methods>
+          <include name="goToCreateAccPage"/>
+          <include name="afterclass"/>
+          <include name="openBrowser"/>
+          <include name="test2"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- Testng.Verifysignuppop -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="FirefoxTest"/>
+    <classes>
+      <class name="Testng.Verifyloginpagefb">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="closeBrowser"/>
+          <include name="goToCreateAccPage"/>
+          <include name="openwebpage"/>
+          <include name="aftermethod"/>
+          <include name="openBrowser"/>
+          <include name="verifyLoginPageFunction"/>
+          <include name="afterclass"/>
+          <include name="beforSuite"/>
+          <include name="verifyLoginPage"/>
+        </methods>
+      </class> <!-- Testng.Verifyloginpagefb -->
+      <class name="Testng.Verifyforgotpasspage">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyForgotPasswordPagetext"/>
+          <include name="beforSuite"/>
+          <include name="verifysearchbuttonfunction"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="verifycancelbuttonfunction"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="goToForgotPasswordPage"/>
+          <include name="verifyCreateAccpage"/>
+        </methods>
+      </class> <!-- Testng.Verifyforgotpasspage -->
+      <class name="Testng.Verifysignuppop">
+        <methods>
+          <include name="goToCreateAccPage"/>
+          <include name="afterclass"/>
+          <include name="openBrowser"/>
+          <include name="test2"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- Testng.Verifysignuppop -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Testng.Verifyforgotpasspage">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyForgotPasswordPagetext"/>
+          <include name="beforSuite"/>
+          <include name="verifysearchbuttonfunction"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="verifycancelbuttonfunction"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="goToForgotPasswordPage"/>
+          <include name="verifyCreateAccpage"/>
+        </methods>
+      </class> <!-- Testng.Verifyforgotpasspage -->
+      <class name="Testng.Verifysignuppop">
+        <methods>
+          <include name="goToCreateAccPage"/>
+          <include name="afterclass"/>
+          <include name="openBrowser"/>
+          <include name="test2"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- Testng.Verifysignuppop -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
